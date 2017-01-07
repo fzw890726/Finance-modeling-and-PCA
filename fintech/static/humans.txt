@@ -1,0 +1,15 @@
+# TEAM
+
+    Chef: Jason Geng, Joshua Zhao
+    Contact: info@datalaus.com
+    From: LA, USA
+
+    Web Design: Woolf Wen
+    Software: Kennan, Xiaoli, Woolf
+
+# THANKS
+
+    Project: Flask
+    Website: http://flask.pocoo.org/
+
+    Language: en

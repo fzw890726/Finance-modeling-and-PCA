@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<form action="/form/" method="post">
+&nbsp;&nbsp;Member(ID): {{form.member_id}} <br />
+Loan Amount: {{form.loan_amnt}} <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rate: {{form.int_rate}} <br />
+&nbsp;&nbsp;&nbsp;&nbsp;Installment: {{form.installment}} <br />
+<br />
+{{form.go}} <br />
+</form>
+{% endblock %}

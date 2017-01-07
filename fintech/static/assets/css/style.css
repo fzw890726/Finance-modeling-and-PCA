@@ -1,0 +1,177 @@
+.header-background {
+	background-image: url(../img/bar.png);
+	border-radius: 0;
+}
+
+.title {
+	font-size: 48px;
+	margin-left: 35px;
+	margin-top: 0px;
+
+}
+
+.divline {
+	border-bottom: 1px solid #b7b2b2;
+
+}
+
+.subhead {
+	margin-left: 62px;
+	font-size: 24px;
+	color: #95989A
+}
+
+.content-box {
+	margin: 30px 80px 10px 80px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	height: 450px;
+
+}
+
+@media screen and (min-width: 780px){
+	.content-box {
+		margin: 30px 80px 10px 80px;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		height: 450px;
+		min-width: 780px
+	}
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: #B7AFAF;
+}
+
+.input-box {
+	box-shadow: 4px 0px 3px 0px rgba(0, 0, 0, 0.1), 0 0px 0px 0 rgba(0, 0, 0, 0.3);
+	height: 450px;
+	min-width: 325px;
+}
+
+.input-container {
+	margin: 25px
+}
+
+.all-input {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.variable {
+	float: left;
+	font-size: 24px;
+	line-height: 26px;
+}
+
+.little {
+	vertical-align: bottom;
+	font-size: 10px;
+	margin:0;
+	padding-top:10px;
+}
+
+.line-input {
+	float: left;
+	width: 90%;
+	line-height: 35px;
+	height: 35px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #b7b2b2;
+	outline: none !important;
+}
+
+.btn-container {
+	width: 250px;
+	height: 40px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.btn-1 {
+	width: auto;
+	height: 32px;
+	color: #fff;
+	background-color: #4FB4EA;
+	float: left;
+	border-radius: 23px;
+	text-decoration: none !important;
+}
+
+.btn-1:hover {
+	background-color: #1FA0E5;
+	color:#fff;
+}
+
+.btn-1:focus {
+	outline: none !important;
+	color: #fff;
+}
+
+.btn-2 {
+	width: auto;
+	height: 32px;
+	color: #fff;
+	background-color: #4FD2EA;
+	float: right;
+	border-radius: 23px;
+}
+
+.btn-2:hover {
+	background-color: #1BC7E6;
+	color: #fff;
+}
+
+.btn-2:focus {
+	outline: none !important;
+	color: #fff;
+}
+
+.footer-name {
+	margin-left: 40px;
+	margin-top: 12px;
+	margin-bottom: auto;
+	color: #fff;
+	width: 400px;
+	float: left;
+	font-size: 24px;
+}
+
+.footer-credit {
+	margin-right: 20px;
+	margin-top: 12px;
+	color: #fff;
+	width: 400px;
+	font-size: 24px; 
+	float: right;
+}
+
+.logo {
+	margin-left: 40px;
+	height: 80px;
+	width: auto;
+}
+
+.graph-box {
+	margin:5px;
+	height: 50%;
+	border: 1px solid #eee;
+	min-height: 200px;
+}
+
+.graph {
+	min-height:425px; 
+	height:auto;
+}
+
+
+
+
+
+
+
